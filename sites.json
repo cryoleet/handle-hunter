@@ -1,0 +1,18 @@
+{
+    "leetcode" : {
+        "url" : "https://leetcode.com/{}/",
+        "checkType" : "status_code"
+    },
+
+    "twitter" : {
+        "url" : "https://twitter.com/{}",
+        "checkType" : "message",
+        "message" : "This account doesn’t exist"
+    },
+
+    "reddit" : {
+        "url" : "https://www.reddit.com/user/{}/",
+        "checkType" : "message",
+        "message" : "Sorry, nobody on Reddit goes by that name."
+    }
+}
